@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OS DevConf 2026 — конференция для разработчиков системного и встраиваемого ПО</title>
+  <meta name="description" content="OS DevConf 2026 — конференция про разработку системного ПО, ядра Linux и open source от сообщества Russian Linux Kernel Community. Дата и место будут объявлены позже.">
+  <meta property="og:title" content="OS DevConf 2026">
+  <meta property="og:description" content="Конференция про разработку системного ПО, ядра Linux и open source">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero-swirl.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a class="logo" href="#top" aria-label="OS DevConf 2026">
+        <img class="logo__tux" src="assets/tux.png" alt="" width="22" height="27">
+        <span>OS DevConf</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О конференции</a>
+        <a href="#when">Дата и место</a>
+        <a href="#schedule">Программа</a>
+        <a href="#committee">Комитет</a>
+        <a href="#community">Сообщество</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <img class="hero__swirl" src="assets/hero-swirl.png" alt="" aria-hidden="true">
+      <div class="hero__content">
+        <p class="hero__date" data-field="date">Дата и место — скоро объявим</p>
+        <h1 class="hero__title">OS DevConf <span>26</span></h1>
+        <p class="hero__lead">Конференция про разработку системного ПО, ядра Linux и open source</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://t.me/linux_kernel_O" target="_blank" rel="noopener">Следить за новостями в Telegram</a>
+          <a class="btn btn--ghost" href="#about">О конференции</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RULKC BANNER (penguin) -->
+    <section class="rulkc-strip" aria-label="Сообщество RULKC">
+      <a class="rulkc-banner reveal" href="https://rulkc.org/" target="_blank" rel="noopener">
+        <img class="rulkc-banner__tux" src="assets/tux.png" alt="Пингвин Tux" width="186" height="226">
+        <div class="rulkc-banner__body">
+          <p class="rulkc-banner__title">Конференция <span>Russian Linux Kernel Community</span></p>
+          <img class="rulkc-banner__logo" src="assets/rulkc-logo.png" alt="RULKC — Russian Linux Kernel Community" width="200" height="76">
+        </div>
+      </a>
+    </section>
+
+    <!-- FOR WHOM -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal">Кому конференция будет полезна?</h2>
+        <ul class="grid grid--3">
+          <li class="card reveal"><span class="card__num">01</span>Специалистам по прототипированию SoC и&nbsp;FPGA</li>
+          <li class="card reveal"><span class="card__num">02</span>Разработчикам системного и&nbsp;встраиваемого ПО</li>
+          <li class="card reveal"><span class="card__num">03</span>Инженерам по разработке ядра Linux и&nbsp;драйверов</li>
+          <li class="card reveal"><span class="card__num">04</span>Сетевым инженерам и&nbsp;разработчикам DPDK</li>
+          <li class="card reveal"><span class="card__num">05</span>Экспертам по системной безопасности</li>
+          <li class="card reveal"><span class="card__num">06</span>Контрибьюторам и&nbsp;мейнтейнерам open source-проектов</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TOPICS -->
+    <section class="section section--tinted" id="topics">
+      <div class="container">
+        <h2 class="section__title reveal">О чём конференция?</h2>
+        <ul class="grid grid--3">
+          <li class="card card--glow reveal">Современные подходы к&nbsp;разработке системного и&nbsp;embedded ПО</li>
+          <li class="card card--glow reveal">Эффективные методы безопасной разработки ядра Linux</li>
+          <li class="card card--glow reveal">Инструменты и&nbsp;примеры отладки, виртуализации, оптимизации производительности</li>
+          <li class="card card--glow reveal">Практический опыт оптимизации сетевых решений с&nbsp;DPDK</li>
+          <li class="card card--glow reveal">Реальные кейсы создания драйверов на&nbsp;Rust</li>
+          <li class="card card--glow reveal">Неформальное общение с&nbsp;коллегами и&nbsp;экспертами сообщества</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DATE & PLACE (empty fields, fill in when known) -->
+    <section class="section" id="when">
+      <div class="container">
+        <h2 class="section__title reveal">Дата и место</h2>
+        <dl class="facts">
+          <div class="fact reveal">
+            <dt>Дата</dt>
+            <dd class="fact__value fact__value--empty" data-field="date">Скоро объявим</dd>
+          </div>
+          <div class="fact reveal">
+            <dt>Место</dt>
+            <dd class="fact__value fact__value--empty" data-field="place">Скоро объявим</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SCHEDULE (empty) -->
+    <section class="section section--tinted" id="schedule">
+      <div class="container">
+        <h2 class="section__title reveal">Программа</h2>
+        <div class="schedule reveal" data-field="schedule">
+          <div class="schedule__row"><span class="schedule__time">--:--</span><span class="schedule__talk">Доклад будет объявлен</span></div>
+          <div class="schedule__row"><span class="schedule__time">--:--</span><span class="schedule__talk">Доклад будет объявлен</span></div>
+          <div class="schedule__row"><span class="schedule__time">--:--</span><span class="schedule__talk">Доклад будет объявлен</span></div>
+          <p class="schedule__note">Программа формируется. Анонсы публикуем в&nbsp;<a href="https://t.me/linux_kernel_O" target="_blank" rel="noopener">Telegram-канале RULKC</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM COMMITTEE -->
+    <section class="section section--tinted" id="committee">
+      <div class="container">
+        <h2 class="section__title reveal">Программный комитет</h2>
+        <ul class="people">
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/rokosov.png" alt="Дмитрий Рокосов" width="160" height="160" loading="lazy">
+            <p class="person__name">Дмитрий Рокосов</p>
+            <p class="person__company">SberDevices</p>
+            <p class="person__role">Kernel Team Lead</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/rusalin.png" alt="Андрей Русалин" width="160" height="160" loading="lazy">
+            <p class="person__name">Андрей Русалин</p>
+            <p class="person__company">Сбер</p>
+            <p class="person__role">TechLead</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/kostrikov.png" alt="Александр Костриков" width="160" height="160" loading="lazy">
+            <p class="person__name">Александр Костриков</p>
+            <p class="person__company">МТС Web Services (MWS)</p>
+            <p class="person__role">Backend-разработчик</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/bocharov.jpg" alt="Вячеслав Бочаров" width="160" height="160" loading="lazy">
+            <p class="person__name">Вячеслав Бочаров</p>
+            <p class="person__company">JetHome</p>
+            <p class="person__role">ИТ-директор</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/krasnov.jpg" alt="Арсений Краснов" width="160" height="160" loading="lazy">
+            <p class="person__name">Арсений Краснов</p>
+            <p class="person__company">SberDevices</p>
+            <p class="person__role">Разработчик</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/popov.png" alt="Александр Попов" width="160" height="160" loading="lazy">
+            <p class="person__name">Александр Попов</p>
+            <p class="person__company">Positive Technologies</p>
+            <p class="person__role">Главный исследователь безопасности операционных систем</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/levin.png" alt="Олег Лёвин" width="160" height="160" loading="lazy">
+            <p class="person__name">Олег Лёвин</p>
+            <p class="person__company">SberDevices</p>
+            <p class="person__role">TechLead</p>
+          </li>
+          <li class="person reveal">
+            <img class="person__photo" src="assets/committee/shipovskiy.png" alt="Владислав Шиповский" width="160" height="160" loading="lazy">
+            <p class="person__name">Владислав Шиповский</p>
+            <p class="person__company">Volta</p>
+            <p class="person__role">Founding / Principal engineer</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RULKC SOCIALS -->
+    <section class="section" id="community">
+      <div class="container">
+        <h2 class="section__title reveal">Подписывайтесь на соцсети RULKC</h2>
+        <ul class="socials">
+          <li class="reveal"><a class="social" href="https://t.me/linux_kernel_O" target="_blank" rel="noopener"><span class="social__icon">TG</span><span class="social__name">Telegram</span><span class="social__hint">Канал сообщества</span></a></li>
+          <li class="reveal"><a class="social" href="https://youtube.com/@linuxkernelcommunity" target="_blank" rel="noopener"><span class="social__icon">YT</span><span class="social__name">YouTube</span><span class="social__hint">Записи докладов</span></a></li>
+          <li class="reveal"><a class="social" href="https://vkvideo.ru/@rulkc" target="_blank" rel="noopener"><span class="social__icon">VK</span><span class="social__name">VK Видео</span><span class="social__hint">Видео сообщества</span></a></li>
+          <li class="reveal"><a class="social" href="https://rutube.ru/channel/62184269/" target="_blank" rel="noopener"><span class="social__icon">RT</span><span class="social__name">RuTube</span><span class="social__hint">Видео сообщества</span></a></li>
+          <li class="reveal"><a class="social" href="https://rulkc.org/" target="_blank" rel="noopener"><span class="social__icon">↗</span><span class="social__name">rulkc.org</span><span class="social__hint">Сайт сообщества</span></a></li>
+          <li class="reveal"><a class="social" href="http://linuxtesting.org/cgi-bin/mailman/listinfo/rulkc" target="_blank" rel="noopener"><span class="social__icon">@</span><span class="social__name">Рассылка</span><span class="social__hint">Список рассылки RULKC</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PAST EDITIONS -->
+    <section class="section" id="archive">
+      <div class="container">
+        <h2 class="section__title reveal">Как это было раньше</h2>
+        <div class="grid grid--2">
+          <a class="card card--link reveal" href="https://osdevconf.ontico.ru" target="_blank" rel="noopener">
+            <span class="card__year">2025</span>
+            <span>OS DevConf 25 — 3 декабря, Москва, онлайн и офлайн</span>
+          </a>
+          <a class="card card--link reveal" href="https://sberdevices-events.jugru.org/osdevconf2024" target="_blank" rel="noopener">
+            <span class="card__year">2024</span>
+            <span>OS DevConf 2024 — 5 декабря, Москва и онлайн</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__brand">OS DevConf 2026</p>
+        <p class="footer__muted">Конференция сообщества <a href="https://rulkc.org/" target="_blank" rel="noopener">Russian Linux Kernel Community</a></p>
+      </div>
+      <div>
+        <p class="footer__muted">Есть вопросы — обращайтесь</p>
+        <p><a href="mailto:rulinuxkc@gmail.com">rulinuxkc@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        els.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
